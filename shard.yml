@@ -1,0 +1,13 @@
+name: geekapk-server
+version: 0.1.0
+
+authors:
+  - duangsuse <fedora-opensuse@outlook.com>
+
+targets:
+  geekapk-server:
+    main: src/geekapk-server.cr
+
+crystal: 0.23.1
+
+license: MIT

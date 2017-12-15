@@ -1,10 +1,10 @@
 {
   "name": "geekapk-server",
   "version": "0.1.0",
-  "description": "Geekapk Server with Amber",
+  "description": "Geekapk API Server with Amber",
   "private": true,
-  "author": "Amber",
-  "license": "UNLICENSED",
+  "author": "duangsuse",
+  "license": "AGPLv3",
   "scripts": {
     "build": "webpack --config config/webpack/development.js",
     "watch": "webpack -w --config config/webpack/development.js",

@@ -1,5 +1,3 @@
-require "./geekapk-server/*"
+require "../config/*"
 
-module Geekapk::Server
-  # TODO Put your code here
-end
+Amber::Server.start

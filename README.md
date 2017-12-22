@@ -34,7 +34,17 @@ pg:
 
 ## Development
 
-:github: This application make use of the [Kemal framework](https://kemalcr.com)
+:heart: This application made use of the [Kemal framework](https://kemalcr.com)
+
+### :rocket: Testing
+```bash
+export ga_username=#(YOUR POSTGRESQL DATABASE USER FOR GEEKAPK)
+export ga_password=#(YOUR POSTGRESQL DATABASE PASSWORD FOR GEEKAPK)
+export db_port=#(YOUR POSTGRESQL LISTENING PORT)
+
+KEMAL_ENV=test crystal spec
+```
+
 
 ## Contributing
 

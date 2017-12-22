@@ -1,0 +1,18 @@
+name: GeekServer
+version: 0.1.0
+
+authors:
+  - duangsuse <fedora-opensuse@outlook.com>
+
+targets:
+  GeekServer:
+    main: src/GeekServer.cr
+
+crystal: 0.23.1
+
+license: AGPL
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+

@@ -1,5 +1,13 @@
 version: 1.0
 shards:
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.4.3
+
+  granite_orm:
+    github: amberframework/granite-orm
+    version: 0.7.8
+
   kemal:
     github: kemalcr/kemal
     version: 0.21.0
@@ -8,7 +16,15 @@ shards:
     github: jeromegn/kilt
     version: 0.4.0
 
+  pg:
+    github: will/crystal-pg
+    version: 0.13.4
+
   radix:
     github: luislavena/radix
     version: 0.3.8
+
+  spec-kemal:
+    github: kemalcr/spec-kemal
+    version: 0.4.0
 

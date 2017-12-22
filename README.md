@@ -10,16 +10,31 @@
 ```bash
 git clone https://github.com/duangsuse/GeekServer.git&&cd GeekServer
 shards install
-crystal run GeekServer.cr
+crystal run src/GeekServer.cr
 ```
 
 ## Usage
 
-TODO: Write usage instructions here
+### For Development
+```bash
+export ga_username=#(YOUR POSTGRESQL DATABASE USER FOR GEEKAPK)
+export ga_password=#(YOUR POSTGRESQL DATABASE PASSWORD FOR GEEKAPK)
+export db_port=#(YOUR POSTGRESQL LISTENING PORT)
+shards build
+./bin/GeekServer
+```
+
+> Go to http://localhost:3000
+
+> default db uri
+```yml
+pg:
+  database: "postgres://${ga_username}:${ga_password}@localhost:{db_port}/database"
+```
 
 ## Development
 
-TODO: Write development instructions here
+:github: This application make use of the [Kemal framework](https://kemalcr.com)
 
 ## Contributing
 

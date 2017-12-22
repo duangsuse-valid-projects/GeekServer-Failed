@@ -1,5 +1,14 @@
 require "./GeekServer/*"
+require "kemal"
 
 module GeekServer
-  # TODO Put your code here
+  get "/" do
+    "Hello Kemal!"
+  end
+
+  get "/version" do
+    VERSION
+  end
+
+  Kemal.run
 end

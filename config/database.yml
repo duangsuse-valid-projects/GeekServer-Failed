@@ -1,0 +1,3 @@
+pg:
+  database: "postgres://${ga_username}:${ga_password}@localhost:{db_port}/database"
+

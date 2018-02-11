@@ -1,5 +1,5 @@
 name: GeekServer
-version: 0.0.1
+version: 0.1.0
 
 authors:
   - duangsuse <fedora-opensuse@outlook.com>
@@ -8,7 +8,7 @@ targets:
   GeekServer:
     main: src/GeekServer.cr
 
-crystal: 0.23.1
+crystal: 0.24.1
 
 license: AGPL
 
@@ -22,6 +22,6 @@ dependencies:
   granite_orm:
     github: amberframework/granite-orm
 
-  pg:
-    github: will/crystal-pg
+  mysql:
+    github: crystal-lang/crystal-mysql
 

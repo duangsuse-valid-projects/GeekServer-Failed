@@ -1,3 +1,2 @@
-pg:
-  database: "postgres://${ga_username}:${ga_password}@localhost:{db_port}/database"
-
+mysql:
+  database: "mysql://${ga_username}:${ga_password}@127.0.0.1:3306/database"

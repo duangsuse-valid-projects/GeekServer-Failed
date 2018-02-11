@@ -5,12 +5,12 @@ describe GeekServer do
     (1 + 1 == 2).should eq(true)
   end
 
-  it "renders /" do
+  it "serves /" do
     get "/"
     response.body.should eq "Hello Kemal!"
   end
 
-  it "shows /version" do
+  it "serves /version" do
     get "/version"
     response.body.should eq GeekServer::VERSION
   end
